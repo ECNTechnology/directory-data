@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies",
+  "info": {
+    "name": "Companies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "maxLength": 300
+    },
+    "floor": {
+      "type": "integer"
+    },
+    "suite": {
+      "type": "integer"
+    }
+  }
+}
